@@ -1,0 +1,91 @@
+.container {
+    width: 375px;
+    height: 630px;
+    margin-left: 400px;
+    margin-top: 65px;
+    background-color: lightcoral;
+    padding-left: 0px;
+    border-radius: 10px;
+    font-family: sans-serif,bold;
+    align-items: left;
+    justify-content: left;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 20px black;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 200px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      background-color: lightblue;
+    }
+  }
+
+#height, #weight {
+    width: 50px;
+    height: 25px;
+    margin-top: 30px;
+    
+}
+
+#weight-guide{
+    margin-left: 105px;
+    margin-top: 25px;
+    background-color: purple;
+    margin-right: 50px;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px black;
+}
+
+#results{
+    font-size: 35px;
+    margin-left: 105px;
+    margin-top: 20px;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    margin-left: 110px;
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 0px 20px black;
+  }
+h1{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px black;
+}
+label{
+    color: black;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;    
+
+}
